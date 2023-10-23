@@ -8,9 +8,11 @@
   <name>hello-worldapp</name>
   <url>http://maven.apache.org</url>
 <properties>
-                <java.version>17</java.version>
-                <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
-        </properties>
+  <java.version>11</java.version>
+  <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+<maven.compiler.source>11</maven.compiler.source>
+<maven.compiler.target>11</maven.compiler.target>
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
